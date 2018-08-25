@@ -1,0 +1,69 @@
+            body
+                {
+                margin:0;
+                padding: 0;
+                text-align:center;
+                background:url('DSC_1331.JPG');
+                background-size:cover;
+                background-position:center; 
+                font-family: sans-serif;
+                }
+
+         .contact 
+                {
+                margin-top:100px;
+                color:darkturquoise;
+                text-transform: uppercase;
+                transition: all 4s ease-in-out;
+                }
+        .contact h1
+                {
+                font-size:30px;
+                line-height:10px;
+                } 
+        .contact h2
+                {
+                font-size:15px;
+                }
+          form
+                {
+                margin-top:100px;
+                transition: all 4s ease-in-out;
+                }
+             .f
+                {
+                width:600px;
+                background:transparent;
+                border:none;
+                outline:none;
+                border-bottom: 1px solid gray;
+                color:white;
+                font-size:20px;
+                margin-bottom:20px;
+                }
+
+            input
+                {
+                height:40px;
+                }
+            .submit
+                {
+                background:#34495e;
+                border-color:transparent;
+                color:aquamarine;
+                font-size:15px;
+                letter-spacing:2px;
+                height:50px;
+                margin-top:30px;
+                }
+            .submit:hover
+                {
+                background-color:#f44336;
+                cursor:pointer;
+                }
+             ::-webkit-input-placeholder
+                {
+                color:red;
+                font-size:25px;
+                letter-spacing: 1px;
+                }

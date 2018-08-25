@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+    {
+    background-image: url(DSC_0186.JPG);
+    height: 140vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top; 
+    }
+
+.main-nav
+    {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+    }
+
+.main-nav li
+    {
+    display:inline-block;
+    }
+.main-nav li a
+    {
+     color: white;
+     text-decoration: none;
+     padding: 5px 20px;
+     font-family: "Roboto",sans-serif;
+     font-size: 15px;
+    }
+
+.main-nav li.active a
+    {
+    border: 1px solid white;   
+    }
+
+.main-nav li a:hover
+    {
+    border: 1px solid white;
+    }
+
+.row
+    {
+    max-width: 1400px;
+    margin: auto;
+    }
+
+.text
+    {
+    text-align: center;
+    padding:60px;
+    font-family: papyrus;
+    font-weight: bold;
+    }
+
+.text h5
+    {
+    width: 85%;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size:25px;
+    line-height:80px;
+    color: #9b30ff;
+    font-family: "Roboto",sans-serif; 
+    }
+
+.leftmenu
+    {
+    width: 80%;
+    text-align:center;
+    margin-top: 280px;
+    margin-left:90px;
+    float:left;
+    }
+
+.leftmenu h2
+     {
+     padding-left: 50px;
+     font-weight:bold;
+     font-size:40px;
+     color:beige;
+     font-family:sans-serif;
+     }
+
+
+
+/*-----icons-----*/
+
+.box
+    {
+    position: absolute;
+    top: 78%;
+    left:49%;
+    transform: translate(-50%, -50%);
+    }
+
+.box li
+    {
+    list-style: none;
+    margin: 0px 0px;
+    display: inline-block;
+    font-size:35px;
+    padding:10px 5px;
+    color:#9b30ff;
+    border:1 px solid #fff;
+    border-radius: 100%;
+    transition: .5s;
+    }
+.box li:hover
+    {
+    color:aqua;
+    border:1px solid #fff68f;
+    transition:.5s;
+    }
+
+
+/*link css*/
+
+a:link
+    {
+    color: blue;
+    background-color: transparent;
+    text-decoration:none;
+    }
+a:visited 
+    {
+    color: #9b30ff;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:hover 
+    {
+    color:darkturquoise;
+    background-color: transparent;
+    text-decoration: underline;
+    } 
+a:active 
+    {
+    color:beige;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+  @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 10em;
+            width: 20%;
+        }
+
+
+/*Footer css */
+
+
+
+/*.footer 
+    {
+    bottom: 5%;
+    width: 90%;
+    margin-top: 260px;
+    margin-left:210px;
+    color:beige;
+    font-size:52px;
+    } 
+/*
